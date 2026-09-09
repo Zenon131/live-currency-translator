@@ -95,7 +95,7 @@
 						>
 							{#each currencies as currency}
 								<option value={currency.code}>
-									{currency.flag} {currency.code} — {currency.name}
+								    {currency.code} — {currency.name}
 								</option>
 							{/each}
 						</select>
